@@ -28,6 +28,28 @@ header {
 
 .item img {
   margin: 15px 0 0 0;
+  
+}
+
+/* -------  Portfolio Flex Columns ------- */
+
+.some-page-wrapper {
+  margin: 1px;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 
@@ -101,7 +123,8 @@ h1 {
   font-size: 28px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 400;
-  color: #fff;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 h2 {
@@ -109,13 +132,15 @@ h2 {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 400;
   margin: 0 10px;
-  color: #fff;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 h3 {
   font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 500;
+  text-decoration: overline;
 }
 
 p {
@@ -133,10 +158,11 @@ main a {
 	text-decoration: none;	
 }
 
-main  a:link { color: #38786a; }
+main  a:link { color: #4d0463; }
 main  a:visited { color: #38786a; }
 main  a:hover { color: #403933; }
 a:active { color: #403933; }
+
 
 
 a:hover {
@@ -149,9 +175,13 @@ footer p {
   padding: 20px;
 }
 
-footer a:link { color: #38786a; }
+footer a:link { color: #ffffff; }
 footer a:visited { color: #38786a; }
 footer a:hover { color: #dbff76; }
+
+.foot a:link { color: #ffffff; }
+.foot a:visited { color: #38786a; }
+.foot a:hover { color: #dbff76; }
 
 
 
